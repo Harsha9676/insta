@@ -50,3 +50,6 @@ def output(request):
     ss.to_csv('followers.csv') 
     data =ss
     return render(request,'home.html',{'data':data})
+
+
+
